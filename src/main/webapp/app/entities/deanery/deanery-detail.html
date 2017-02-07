@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span data-translate="educationStudentApp.deanery.detail.title">Deanery</span> {{vm.deanery.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row jh-entity-details">
+        <dt><span data-translate="educationStudentApp.deanery.name">Name</span></dt>
+        <dd>
+            <span>{{vm.deanery.name}}</span>
+        </dd>
+        <dt><span data-translate="educationStudentApp.deanery.position">Position</span></dt>
+        <dd>
+            <span>{{vm.deanery.position}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="deanery-detail.edit({id:vm.deanery.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

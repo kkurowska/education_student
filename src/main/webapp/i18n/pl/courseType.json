@@ -1,0 +1,11 @@
+{
+    "educationStudentApp": {
+        "CourseType" : {
+            "null": "",
+            "lecture": "lecture",
+            "exercises": "exercises",
+            "laboratory": "laboratory",
+            "project": "project"
+        }
+    }
+}

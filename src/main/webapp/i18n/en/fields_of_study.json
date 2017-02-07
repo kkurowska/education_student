@@ -1,0 +1,29 @@
+{
+    "educationStudentApp": {
+        "fields_of_study" : {
+            "home": {
+                "title": "Fields Of Studies",
+                "createLabel": "Create a new Fields Of Study",
+                "createOrEditLabel": "Create or edit a Fields Of Study",
+                "search": "Search for Fields Of Study"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Fields Of Study {{ id }}?"
+            },
+            "detail": {
+                "title": "Fields Of Study"
+            },
+            "name": "Name",
+            "start_year": "Start Year",
+            "degree_of_studies": "Degree Of Studies",
+            "deleted": "Deleted"
+        }
+    },
+    "userManagerApp": {
+        "fields_of_study" : {
+            "created": "A new Fields Of Study is created with identifier {{ param }}",
+            "updated": "A Fields Of Study is updated with identifier {{ param }}",
+            "deleted": "A Fields Of Study is deleted with identifier {{ param }}"
+        }
+    }
+}

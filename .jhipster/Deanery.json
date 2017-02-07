@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "position",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170207104155",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "deanery",
+    "pagination": "pagination",
+    "microserviceName": "UserManager",
+    "searchEngine": false
+}

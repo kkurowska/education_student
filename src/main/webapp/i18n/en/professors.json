@@ -1,0 +1,28 @@
+{
+    "educationStudentApp": {
+        "professors" : {
+            "home": {
+                "title": "Professors",
+                "createLabel": "Create a new Professors",
+                "createOrEditLabel": "Create or edit a Professors",
+                "search": "Search for Professors"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Professors {{ id }}?"
+            },
+            "detail": {
+                "title": "Professors"
+            },
+            "name": "Name",
+            "degree": "Degree",
+            "position": "Position"
+        }
+    },
+    "userManagerApp": {
+        "professors" : {
+            "created": "A new Professors is created with identifier {{ param }}",
+            "updated": "A Professors is updated with identifier {{ param }}",
+            "deleted": "A Professors is deleted with identifier {{ param }}"
+        }
+    }
+}

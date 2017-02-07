@@ -1,0 +1,10 @@
+{
+    "educationStudentApp": {
+        "DegreeOfStudies" : {
+            "null": "",
+            "bachelor": "bachelor",
+            "master": "master",
+            "doctor": "doctor"
+        }
+    }
+}

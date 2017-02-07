@@ -1,0 +1,42 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "start_year",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "degree_of_studies",
+            "fieldType": "DegreeOfStudies",
+            "fieldValues": "bachelor, master, doctor",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "deleted",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170207102432",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "fields_of_study",
+    "pagination": "pagination",
+    "microserviceName": "UserManager",
+    "searchEngine": false
+}

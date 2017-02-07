@@ -1,0 +1,21 @@
+version: '2'
+services:
+    education_student-cassandra:
+        container_name: education_student-cassandra
+        image: cassandra:3.9
+        # volumes:
+        #     - ~/volumes/jhipster/education_student/cassandra/:/var/lib/cassandra/data
+        ports:
+            - 7000:7000
+            - 7001:7001
+            - 7199:7199
+            - 9042:9042
+            - 9160:9160
+    education_student-cassandra-migration:
+        extends:
+            file: cassandra-migration.yml
+            service: education_student-cassandra-migration
+        links:
+            - education_student-cassandra
+        environment:
+            - CREATE_KEYSPACE_SCRIPT=create-keyspace.cql

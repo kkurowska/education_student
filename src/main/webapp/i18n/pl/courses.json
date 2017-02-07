@@ -1,0 +1,29 @@
+{
+    "educationStudentApp": {
+        "courses" : {
+            "home": {
+                "title": "Courses",
+                "createLabel": "Dodaj Courses",
+                "createOrEditLabel": "Dodaj lub edytuj: Courses",
+                "search": "Search for Courses"
+            },
+            "delete": {
+                "question": "Czy na pewno chcesz usunąć Courses {{ id }}?"
+            },
+            "detail": {
+                "title": "Courses"
+            },
+            "name": "Name",
+            "type": "Type",
+            "ects": "Ects",
+            "professor": "Professor"
+        }
+    },
+    "gradesManagerApp": {
+        "courses" : {
+            "created": "A new Courses is created with identifier {{ param }}",
+            "updated": "A Courses is updated with identifier {{ param }}",
+            "deleted": "A Courses is deleted with identifier {{ param }}"
+        }
+    }
+}

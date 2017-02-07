@@ -1,0 +1,45 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "professor",
+            "otherEntityName": "professors",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "degree, name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "CourseType",
+            "fieldValues": "lecture, exercises, laboratory, project",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ects",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170207105300",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "courses",
+    "pagination": "pagination",
+    "microserviceName": "GradesManager",
+    "searchEngine": false
+}

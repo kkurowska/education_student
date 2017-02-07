@@ -1,0 +1,8 @@
+version: '2'
+services:
+    education_student-sonar:
+        container_name: education_student-sonar
+        image: sonarqube:6.2-alpine
+        ports:
+            - 9000:9000
+            - 9092:9092

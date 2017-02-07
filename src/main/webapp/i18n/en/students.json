@@ -1,0 +1,28 @@
+{
+    "educationStudentApp": {
+        "students" : {
+            "home": {
+                "title": "Students",
+                "createLabel": "Create a new Students",
+                "createOrEditLabel": "Create or edit a Students",
+                "search": "Search for Students"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Students {{ id }}?"
+            },
+            "detail": {
+                "title": "Students"
+            },
+            "name": "Name",
+            "index_number": "Index Number",
+            "field_of_study": "Field Of Study"
+        }
+    },
+    "userManagerApp": {
+        "students" : {
+            "created": "A new Students is created with identifier {{ param }}",
+            "updated": "A Students is updated with identifier {{ param }}",
+            "deleted": "A Students is deleted with identifier {{ param }}"
+        }
+    }
+}

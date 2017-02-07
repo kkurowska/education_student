@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "field_of_study",
+            "otherEntityName": "field_of_study",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "name, degree_of_studies, start_year"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "index_number",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170207103801",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "students",
+    "pagination": "pagination",
+    "microserviceName": "UserManager",
+    "searchEngine": false
+}

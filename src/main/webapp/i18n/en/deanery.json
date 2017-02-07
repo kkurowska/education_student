@@ -1,0 +1,27 @@
+{
+    "educationStudentApp": {
+        "deanery" : {
+            "home": {
+                "title": "Deaneries",
+                "createLabel": "Create a new Deanery",
+                "createOrEditLabel": "Create or edit a Deanery",
+                "search": "Search for Deanery"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Deanery {{ id }}?"
+            },
+            "detail": {
+                "title": "Deanery"
+            },
+            "name": "Name",
+            "position": "Position"
+        }
+    },
+    "userManagerApp": {
+        "deanery" : {
+            "created": "A new Deanery is created with identifier {{ param }}",
+            "updated": "A Deanery is updated with identifier {{ param }}",
+            "deleted": "A Deanery is deleted with identifier {{ param }}"
+        }
+    }
+}
